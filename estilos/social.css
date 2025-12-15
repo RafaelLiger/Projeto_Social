@@ -13,7 +13,7 @@ img {
     width: 100vw;
 
 }
-a {
+a.youtube {
     display: block;
     background-color: darkred;
     padding: 20px;
@@ -22,6 +22,54 @@ a {
     text-decoration: none;
     color: white;
 }
-a:hover {
+a.youtube:hover {
     background-color: red;
+}
+a.facebook {
+    display: block;
+    background-color: #3b5998;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+a.facebook:hover {
+    background-color: #2862df;
+}
+a.x {
+    display: block;
+    background-color: #187dbd;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+a.x:hover {
+    background-color: #059fff;
+}
+a.insta {
+    display: block;
+    background: linear-gradient(to top right, #fed271, #f28765, #d72e88, #7841b0, #4d64d4);
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+a.insta:hover {
+    background: linear-gradient(to top right, #f28765, #d72e88, #7841b0, #4d64d4, #fed271);
+}
+a.kick {
+    display: block;
+    background-color: #3eaf19;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+a.kick:hover {
+    background-color: #4ff217;
 }
